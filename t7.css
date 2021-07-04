@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+  
+.container{
+    background-image: linear-gradient(120deg,blue, purple , red);
+    width: 45rem ;
+    height:10rem;
+    margin: auto;
+    margin-top: 4rem;
+    position: relative;
+    padding: 2rem;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+  
+  .container__label {
+    position: absolute;
+    width: 42rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 6rem;
+    color: white;
+}
+
